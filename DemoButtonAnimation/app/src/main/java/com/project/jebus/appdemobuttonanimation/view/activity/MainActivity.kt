@@ -37,6 +37,8 @@ class MainActivity : AppCompatActivity(), OnClickCustomListener {
             }
         }
 
+        binding.butOption4.onClickCustomListener = this
+
     }
 
     private fun loadData(){
@@ -47,6 +49,7 @@ class MainActivity : AppCompatActivity(), OnClickCustomListener {
         when(v?.id){
             binding.butOption1.id -> binding.tviMessage.text = "Animación BUTTON Alpha"
             binding.butOption2.id -> binding.tviMessage.text = "Animación BUTTON Scale"
+            binding.butOption4.id -> binding.tviMessage.text = "Animación BUTTON Scale Decrease"
         }
     }
 

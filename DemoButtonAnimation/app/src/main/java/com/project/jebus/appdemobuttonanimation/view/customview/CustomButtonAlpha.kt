@@ -21,7 +21,7 @@ class CustomButtonAlpha(context: Context, attrs: AttributeSet?) : AppCompatButto
             visibility = View.VISIBLE
             animate()
                     .alpha(1f)
-                    .setDuration(500)
+                    .setDuration(300)
                     .setListener(object : Animator.AnimatorListener {
                         override fun onAnimationStart(animation: Animator?) {}
                         override fun onAnimationRepeat(animation: Animator?) {}
