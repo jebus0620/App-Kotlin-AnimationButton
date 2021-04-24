@@ -1,6 +1,6 @@
 # App-Kotlin-AnimationButton
 
-Librerias:
+Dependencias:
 
  - 'androidx.core:core-ktx:1.3.2'
  - 'androidx.appcompat:appcompat:1.2.0'
